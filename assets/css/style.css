@@ -1,0 +1,269 @@
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
+body {
+  font: 13px Helmet, Freesans, sans-serif;
+}
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
+/* We like off-black for text. */
+body,
+select,
+input,
+textarea {
+  color: #333;
+}
+a {
+  color: #03f;
+}
+a:hover {
+  color: #69f;
+}
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none;
+}
+/*	j.mp/webkit-tap-highlight-color */
+a:link {
+  -webkit-tap-highlight-color: #fcd700;
+}
+ins {
+  background-color: #fcd700;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #fcd700;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder {
+  color: #a9a9a9;
+}
+textarea:-moz-placeholder {
+  color: #a9a9a9;
+}
+#showBox {
+  width: 660px;
+  height: 476px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+#showBox .circle {
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  clear: both;
+}
+#showBox .circle ul {
+  width: 100%;
+  text-align: center;
+}
+#showBox .circle ul li {
+  display: inline;
+  padding: 6px 6px;
+  margin: 0 2px;
+  background: transparent url(http://im-img.qq.com/home/img/q2013/normal.png) no-repeat center center;
+  cursor: pointer;
+}
+#showBox .circle ul li.action,
+#showBox .circle ul li:hover {
+  background: transparent url(http://im-img.qq.com/home/img/q2013/active.png) no-repeat center center;
+}
+#showBox .hide {
+  display: none;
+}
+#showBox .boxCent.box1 {
+  background: url('../images/pg1/bg.png') no-repeat;
+  z-index: 1;
+}
+#showBox .boxCent.box1 .img {
+  background: url('../images/pg1/img.png') no-repeat;
+  width: 480px;
+  height: 297px;
+  position: absolute;
+  right: 6px;
+  top: 115px;
+}
+#showBox .boxCent.box1 .tit {
+  background: url('../images/pg1/tit.png') no-repeat;
+  width: 152px;
+  height: 51px;
+  position: absolute;
+  top: 202px;
+  left: 18px;
+}
+#showBox .boxCent.box1 .btn {
+  background: url('../images/pg1/btn.png') no-repeat;
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  top: 270px;
+  left: 50px;
+  cursor: pointer;
+}
+#showBox .boxCent.box1 .icon {
+  background: url('../images/pg1/icon.png') no-repeat;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: 188px;
+  left: 154px;
+}
+#showBox .boxCent.box2 {
+  background: url('../images/pg2/bg.png') no-repeat;
+  z-index: 0;
+}
+#showBox .boxCent.box2 .img {
+  background: url('../images/pg2/img.png') no-repeat;
+  width: 452px;
+  height: 309px;
+  position: absolute;
+  left: 5px;
+  top: 80px;
+}
+#showBox .boxCent.box2 .tit {
+  background: url('../images/pg2/tit.png') no-repeat;
+  width: 156px;
+  height: 52px;
+  position: absolute;
+  top: 200px;
+  right: 28px;
+}
+#showBox .boxCent.box2 .btn {
+  background: url('../images/pg2/btn.png') no-repeat;
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  top: 274px;
+  right: 68px;
+  cursor: pointer;
+}
+#showBox .boxCent.box3 {
+  background: url('../images/pg3/bg.png') no-repeat;
+  z-index: 0;
+}
+#showBox .boxCent.box3 .img {
+  background: url('../images/pg3/img.png') no-repeat;
+  width: 452px;
+  height: 309px;
+  position: absolute;
+  right: 0px;
+  top: 52px;
+}
+#showBox .boxCent.box3 .tit {
+  background: url('../images/pg3/tit.png') no-repeat;
+  width: 156px;
+  height: 52px;
+  position: absolute;
+  top: 200px;
+  left: 28px;
+}
+#showBox .boxCent.box3 .btn {
+  background: url('../images/pg3/btn.png') no-repeat;
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  top: 274px;
+  left: 82px;
+  cursor: pointer;
+}
+#showBox .boxCent.box3 .icon1 {
+  background: url('../images/pg3/icon1.png') no-repeat;
+  width: 46px;
+  height: 31px;
+  position: absolute;
+  top: 82px;
+  right: 30px;
+}
+#showBox .boxCent.box3 .icon2 {
+  background: url('../images/pg3/icon2.png') no-repeat;
+  width: 58px;
+  height: 54px;
+  position: absolute;
+  top: 232px;
+  left: 12px;
+}
+#showBox .boxCent.box4 {
+  background: url('../images/pg4/bg.png') no-repeat;
+  z-index: 0;
+}
+#showBox .boxCent.box4 .img {
+  background: url('../images/pg4/img.png') no-repeat;
+  width: 357px;
+  height: 489px;
+  position: absolute;
+  top: -4px;
+  left: 46px;
+}
+#showBox .boxCent.box4 .tit {
+  background: url('../images/pg4/tit.png') no-repeat;
+  width: 171px;
+  height: 52px;
+  position: absolute;
+  top: 200px;
+  right: 66px;
+}
+#showBox .boxCent.box4 .btn {
+  background: url('../images/pg4/btn.png') no-repeat;
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  top: 270px;
+  right: 120px;
+  cursor: pointer;
+}
+#showBox .boxCent.box5 {
+  background: url('../images/pg5/bg.png') no-repeat;
+  z-index: 0;
+}
+#showBox .boxCent.box5 .img {
+  background: url('../images/pg5/img.png') no-repeat;
+  width: 390px;
+  height: 463px;
+  position: absolute;
+  top: 14px;
+  right: 40px;
+}
+#showBox .boxCent.box5 .tit {
+  background: url('../images/pg5/tit.png') no-repeat;
+  width: 155px;
+  height: 52px;
+  position: absolute;
+  top: 200px;
+  left: 62px;
+}
+#showBox .boxCent.box5 .btn {
+  background: url('../images/pg5/btn.png') no-repeat;
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  top: 270px;
+  left: 104px;
+  cursor: pointer;
+}
+#showBox .boxCent {
+  position: absolute;
+  width: 660px;
+  height: 476px;
+  opacity: 0;
+  z-index: 0;
+}
+#showBox .boxCent.action {
+  opacity: 1;
+  z-index: 1;
+}
+/* Media queries
+-------------------------------------------------------------------------------*/
+/* Print styles
+-------------------------------------------------------------------------------*/

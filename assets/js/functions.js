@@ -41,7 +41,7 @@
         // 鼠标聚焦暂停 自动切换 离开 后继续
         $showBox.on('mouseover', function (e) {
             clearInterval(autoRunCtl);
-        }).on('mouseout', function (e) {
+        }).on('mouseleave', function (e) {
             autoRun();
         });
 

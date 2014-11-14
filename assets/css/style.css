@@ -73,12 +73,12 @@ textarea:-moz-placeholder {
   display: inline;
   padding: 6px 6px;
   margin: 0 2px;
-  background: transparent url(http://im-img.qq.com/home/img/q2013/normal.png) no-repeat center center;
+  background: transparent url('../images/normal.png') no-repeat center center;
   cursor: pointer;
 }
 #showBox .circle ul li.action,
 #showBox .circle ul li:hover {
-  background: transparent url(http://im-img.qq.com/home/img/q2013/active.png) no-repeat center center;
+  background: transparent url('../images/active.png') no-repeat center center;
 }
 #showBox .hide {
   display: none;
